@@ -5,6 +5,7 @@ public class NoteKey : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject keyimage;
     public GameObject keyistrue;
+    public GameObject InteractE;
     public bool isplayer;
     void Start()
     {
@@ -16,6 +17,8 @@ public class NoteKey : MonoBehaviour
         if(other.tag == "Player")
         {
             isplayer=true;
+            InteractE.SetActive(true);
+
         }
 
     }
@@ -25,6 +28,8 @@ public class NoteKey : MonoBehaviour
         if (other.tag == "Player")
         {
             isplayer = false;
+            InteractE.SetActive(false);
+
         }
 
     }
@@ -38,6 +43,7 @@ public class NoteKey : MonoBehaviour
             {
                 keyimage.SetActive(true);
                 keyistrue.SetActive(true);
+                InteractE.SetActive(false);
                 Destroy(gameObject);
 
             }
