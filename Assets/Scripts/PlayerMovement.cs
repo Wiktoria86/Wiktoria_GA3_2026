@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 moveDirection;
 
     Rigidbody rb;
+    static public bool dialogue = false;
 
     private void Start()
     {
@@ -31,7 +32,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        MovePlayer();
+   
+        
+            MovePlayer();
+        
+       
     }
 
 
