@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class RespawnEnemy : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     public GameObject respawnPoint;
     public GameObject player;
     void Start()
@@ -10,7 +10,6 @@ public class RespawnEnemy : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
