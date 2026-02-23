@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3c2ecdb2-d458-4b8c-80b5-02f6b445b407}">
+		<property name="assetPath">
+			<value>dragon-studio-footsteps-on-wood.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4.3363265306122445</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{95d4dca5-4e26-4d93-ab6f-e8635bce0ac9}</destination>
+		</relationship>
+	</object>
+</objects>
