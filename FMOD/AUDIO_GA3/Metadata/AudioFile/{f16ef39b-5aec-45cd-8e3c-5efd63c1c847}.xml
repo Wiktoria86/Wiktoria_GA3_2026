@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{f16ef39b-5aec-45cd-8e3c-5efd63c1c847}">
+		<property name="assetPath">
+			<value>freesound_community-deep-space-ambiance-48854.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>157.08000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{95d4dca5-4e26-4d93-ab6f-e8635bce0ac9}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -65732,8 +65732,8 @@ MonoBehaviour:
       Data4: -740444500
     Path: event:/Wood Footsteps
   Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 0
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
