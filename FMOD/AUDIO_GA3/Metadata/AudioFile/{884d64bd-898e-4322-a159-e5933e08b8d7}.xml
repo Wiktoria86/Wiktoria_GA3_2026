@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{884d64bd-898e-4322-a159-e5933e08b8d7}">
+		<property name="assetPath">
+			<value>dragon-studio-cemetery-wind-467488.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.624000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{95d4dca5-4e26-4d93-ab6f-e8635bce0ac9}</destination>
+		</relationship>
+	</object>
+</objects>
