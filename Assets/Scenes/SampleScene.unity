@@ -52499,6 +52499,91 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58f390f526d63fa4d86583592629af90, type: 3}
+--- !u!1 &1586372952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1586372955}
+  - component: {fileID: 1586372954}
+  - component: {fileID: 1586372953}
+  m_Layer: 0
+  m_Name: Hallway Ambiance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1586372953
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586372952}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9019547, y: 3.0288036, z: 17.32521}
+  m_Center: {x: -0.017478466, y: 1.0144018, z: -0.8994427}
+--- !u!114 &1586372954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586372952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -104586481
+      Data2: 1274897001
+      Data3: 548951182
+      Data4: 592877081
+    Path: event:/Hallway Ambiance
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &1586372955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586372952}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.06, y: 0.87513, z: -2.41}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1586901355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65704,6 +65789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1780337310}
   - component: {fileID: 1780337309}
+  - component: {fileID: 1780337311}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -65726,11 +65812,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1823819357
-      Data2: 1252925103
-      Data3: 471299751
-      Data4: -740444500
-    Path: event:/Wood Footsteps
+      Data1: -700126513
+      Data2: 1244760003
+      Data3: -174310013
+      Data4: -555326395
+    Path: event:/Ambiance
   Event: 
   EventPlayTrigger: 3
   EventStopTrigger: 4
@@ -65757,6 +65843,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1780337311
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780337308}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 7.672665, y: 1.4841158, z: 6.0894747}
+  m_Center: {x: 0.08403659, y: -0.24205798, z: 0.30252028}
 --- !u!1 &1783974219
 GameObject:
   m_ObjectHideFlags: 0
@@ -70206,8 +70313,8 @@ Rigidbody:
   m_GameObject: {fileID: 2058218048}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 2.61
-  m_AngularDamping: 0.53
+  m_LinearDamping: 4
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -76827,3 +76934,4 @@ SceneRoots:
   - {fileID: 992770817}
   - {fileID: 1930315052}
   - {fileID: 1780337310}
+  - {fileID: 1586372955}
