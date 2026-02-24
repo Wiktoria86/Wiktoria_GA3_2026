@@ -33487,7 +33487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1247424666431460, guid: 61fe87365490bd244af63822b53aabb1, type: 3}
       propertyPath: m_TagString
-      value: Tile
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1247424666431460, guid: 61fe87365490bd244af63822b53aabb1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -49631,7 +49631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1987219709043866, guid: b9f6e7b74ed89574598f26acba3afa74, type: 3}
       propertyPath: m_TagString
-      value: Carpet
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1987219709043866, guid: b9f6e7b74ed89574598f26acba3afa74, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -54046,7 +54046,7 @@ GameObject:
   - component: {fileID: 1639315183}
   - component: {fileID: 1639315184}
   m_Layer: 0
-  m_Name: PlayerSound
+  m_Name: AudioManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54061,7 +54061,7 @@ Transform:
   m_GameObject: {fileID: 1639315182}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.26, y: 0.042831015, z: 0.13}
+  m_LocalPosition: {x: 0.26, y: -1.152, z: 0.13}
   m_LocalScale: {x: 1, y: 1.1271288, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54076,17 +54076,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1639315182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73565f46fdc7e55498b46d50c610b97b, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c7cb5ac254fb6548ac96549d624820e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerSound
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   footstepEvent:
     Guid:
-      Data1: 554771417
-      Data2: 1149986653
-      Data3: 1948901547
-      Data4: 1756209572
+      Data1: 332973126
+      Data2: 1196703818
+      Data3: 1358440585
+      Data4: 1387358134
     Path: event:/Footsteps
-  minStepInterval: 0.3
+  stepInterval: 0.5
 --- !u!1001 &1646652231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70909,7 +70909,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cff3f94118b7b3b43891ae4d966c89bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  playerSound: {fileID: 1639315184}
   moveSpeed: 5
   orientation: {fileID: 362117827}
 --- !u!114 &2058218052

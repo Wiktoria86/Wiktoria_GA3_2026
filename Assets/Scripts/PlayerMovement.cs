@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField]
-    private PlayerSound playerSound;
 
     [Header("Movement")]
     public float moveSpeed;
@@ -60,9 +58,5 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    private void PlayerFootstep()
-    {
-        
-    }
 
 }
