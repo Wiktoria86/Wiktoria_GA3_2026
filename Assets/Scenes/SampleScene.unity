@@ -3005,6 +3005,7 @@ GameObject:
   - component: {fileID: 199809623}
   - component: {fileID: 199809625}
   - component: {fileID: 199809624}
+  - component: {fileID: 199809626}
   m_Layer: 0
   m_Name: OtherNote3.1
   m_TagString: Untagged
@@ -3063,6 +3064,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5874151, y: 1.1899829, z: 0.6261668}
   m_Center: {x: 0.0060150335, y: 0.09499203, z: 0.32344458}
+--- !u!114 &199809626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199809622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &204179852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3376,6 +3408,7 @@ GameObject:
   - component: {fileID: 212184873}
   - component: {fileID: 212184872}
   - component: {fileID: 212184871}
+  - component: {fileID: 212184874}
   m_Layer: 0
   m_Name: NoteTextRoom3
   m_TagString: Untagged
@@ -3434,6 +3467,37 @@ Transform:
   - {fileID: 2024968846}
   m_Father: {fileID: 1193149071}
   m_LocalEulerAnglesHint: {x: 0, y: -126.225, z: 0}
+--- !u!114 &212184874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212184870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &214014435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10226,6 +10290,7 @@ GameObject:
   - component: {fileID: 299189512}
   - component: {fileID: 299189514}
   - component: {fileID: 299189513}
+  - component: {fileID: 299189515}
   m_Layer: 0
   m_Name: OtherNote1.1
   m_TagString: Untagged
@@ -10284,6 +10349,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5874151, y: 1, z: 0.7092962}
   m_Center: {x: 0.0060136635, y: 0, z: 0.20856696}
+--- !u!114 &299189515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299189511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &311614795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20558,6 +20654,7 @@ GameObject:
   - component: {fileID: 706193313}
   - component: {fileID: 706193315}
   - component: {fileID: 706193314}
+  - component: {fileID: 706193316}
   m_Layer: 0
   m_Name: OtherNote1.2
   m_TagString: Untagged
@@ -20616,6 +20713,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5874151, y: 1, z: 0.66905344}
   m_Center: {x: 0.006014667, y: 0, z: 0.18844561}
+--- !u!114 &706193316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706193312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &706716336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22620,6 +22748,7 @@ GameObject:
   - component: {fileID: 790745770}
   - component: {fileID: 790745772}
   - component: {fileID: 790745771}
+  - component: {fileID: 790745773}
   m_Layer: 0
   m_Name: OtherNote2.2
   m_TagString: Untagged
@@ -22678,6 +22807,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5874151, y: 1.1899829, z: 0.66219836}
   m_Center: {x: 0.006015792, y: 0.09499203, z: 0.46924144}
+--- !u!114 &790745773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790745769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &790988052
 GameObject:
   m_ObjectHideFlags: 0
@@ -40027,6 +40187,7 @@ GameObject:
   - component: {fileID: 1133092641}
   - component: {fileID: 1133092643}
   - component: {fileID: 1133092642}
+  - component: {fileID: 1133092644}
   m_Layer: 0
   m_Name: OtherNote2.3
   m_TagString: Untagged
@@ -40085,6 +40246,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5874151, y: 1.1899829, z: 0.6261668}
   m_Center: {x: 0.0060150335, y: 0.09499203, z: 0.32344458}
+--- !u!114 &1133092644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133092640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1148830783
 GameObject:
   m_ObjectHideFlags: 0
@@ -49947,6 +50139,7 @@ GameObject:
   - component: {fileID: 1448032499}
   - component: {fileID: 1448032501}
   - component: {fileID: 1448032500}
+  - component: {fileID: 1448032502}
   m_Layer: 0
   m_Name: OtherNote2.1
   m_TagString: Untagged
@@ -50005,6 +50198,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5874151, y: 1.1899829, z: 0.96943736}
   m_Center: {x: 0.0060177003, y: 0.09499203, z: 0.36646733}
+--- !u!114 &1448032502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448032498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1450805429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8e444729067cbf24ea551b5963479172, type: 3}
@@ -51398,6 +51622,91 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 13.952428, y: 5.745128, z: 0.6649345}
   m_Center: {x: -3.17894, y: 2.3725624, z: -0.16753273}
+--- !u!1 &1498176335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498176338}
+  - component: {fileID: 1498176337}
+  - component: {fileID: 1498176336}
+  m_Layer: 0
+  m_Name: Final room Ambiance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1498176336
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498176335}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.202382, y: 1.4841158, z: 15.087531}
+  m_Center: {x: -0.36367273, y: -0.24205798, z: 3.2575088}
+--- !u!114 &1498176337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498176335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -700126513
+      Data2: 1244760003
+      Data3: -174310013
+      Data4: -555326395
+    Path: event:/Ambiance
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &1498176338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498176335}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.67, y: 0.87513, z: -23.21}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1501182764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52932,8 +53241,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.050827, y: 3.0288036, z: 17.729818}
-  m_Center: {x: -0.091914654, y: 1.0144018, z: -1.1017504}
+  m_Size: {x: 3.050827, y: 3.0288036, z: 17.774086}
+  m_Center: {x: -0.091914654, y: 1.0144018, z: -1.1238847}
 --- !u!114 &1586372954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69013,6 +69322,7 @@ GameObject:
   - component: {fileID: 1938899144}
   - component: {fileID: 1938899146}
   - component: {fileID: 1938899145}
+  - component: {fileID: 1938899147}
   m_Layer: 0
   m_Name: OtherNote3.2
   m_TagString: Untagged
@@ -69071,6 +69381,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.62695295, y: 1.1899829, z: 0.7745878}
   m_Center: {x: 0.02578407, y: 0.09499203, z: 0.3976525}
+--- !u!114 &1938899147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938899143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1943914247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71161,6 +71502,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4525979494391414, guid: 35e841b08485a4c4ca32bd075e78e006, type: 3}
   m_PrefabInstance: {fileID: 2067950931}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2068237894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068237897}
+  - component: {fileID: 2068237896}
+  - component: {fileID: 2068237895}
+  m_Layer: 0
+  m_Name: Backroom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &2068237895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068237894}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 25.349625, y: 1.4841158, z: 24.748314}
+  m_Center: {x: -2.1635041, y: -0.24205798, z: -3.2728615}
+--- !u!114 &2068237896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068237894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1882989509
+      Data2: 1235306613
+      Data3: -722330985
+      Data4: 485965762
+    Path: event:/Backroom Ambiance
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &2068237897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068237894}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.46, y: -6.33, z: -45.86}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2072996728
 GameObject:
   m_ObjectHideFlags: 0
@@ -76438,6 +76864,7 @@ GameObject:
   - component: {fileID: 2100915727}
   - component: {fileID: 2100915726}
   - component: {fileID: 2100915728}
+  - component: {fileID: 2100915729}
   m_Layer: 0
   m_Name: NoteTextRoom1
   m_TagString: Untagged
@@ -76496,6 +76923,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextNotes
   NoteRoom1: {fileID: 1545663753}
   isplayer: 0
+--- !u!114 &2100915729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100915725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2103506935
 GameObject:
   m_ObjectHideFlags: 0
@@ -76508,6 +76966,7 @@ GameObject:
   - component: {fileID: 2103506937}
   - component: {fileID: 2103506936}
   - component: {fileID: 2103506939}
+  - component: {fileID: 2103506940}
   m_Layer: 0
   m_Name: NoteTextHallway1
   m_TagString: Untagged
@@ -76584,6 +77043,37 @@ MonoBehaviour:
   blackScreen: {fileID: 1125684050}
   fadeDuration: 2
   isplayer: 0
+--- !u!114 &2103506940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103506935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2118209518
 GameObject:
   m_ObjectHideFlags: 0
@@ -77545,6 +78035,7 @@ GameObject:
   - component: {fileID: 2146942167}
   - component: {fileID: 2146942166}
   - component: {fileID: 2146942165}
+  - component: {fileID: 2146942168}
   m_Layer: 0
   m_Name: NoteTextRoom2
   m_TagString: Untagged
@@ -77603,6 +78094,37 @@ Transform:
   - {fileID: 1551593588}
   m_Father: {fileID: 1193149071}
   m_LocalEulerAnglesHint: {x: 0, y: 223.888, z: 0}
+--- !u!114 &2146942168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146942164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -218506495
+      Data2: 1106541924
+      Data3: 1177343668
+      Data4: 500777337
+    Path: event:/OtherNotes
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -77633,9 +78155,11 @@ SceneRoots:
   - {fileID: 1930315052}
   - {fileID: 1780337310}
   - {fileID: 51938369}
+  - {fileID: 1498176338}
   - {fileID: 2061909478}
   - {fileID: 1586372955}
   - {fileID: 84304906}
   - {fileID: 1220269969}
   - {fileID: 389018573}
   - {fileID: 1685645635}
+  - {fileID: 2068237897}
