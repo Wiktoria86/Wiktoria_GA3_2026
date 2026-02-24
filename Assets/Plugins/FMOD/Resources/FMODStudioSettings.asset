@@ -480,6 +480,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Ambiance
+  - Sound Effects
   - Wood
   BanksToLoad: []
   LiveUpdatePort: 9264

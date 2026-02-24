@@ -7,6 +7,10 @@ public class OpenDoor : MonoBehaviour
     public GameObject keyistrue;
     public bool isplayer;
     Animator animator;
+
+    [Header("FMOD")]
+    public FMODUnity.EventReference pickupSound;
+
     void Start()
     {
         isplayer = false;
@@ -44,6 +48,7 @@ public class OpenDoor : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    FMODUnity.RuntimeManager.PlayOneShot(pickupSound, transform.position);
                     InteractE.SetActive(false);
                     animator.enabled = true;
 

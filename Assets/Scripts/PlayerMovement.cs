@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField]
+    private PlayerSound playerSound;
+
     [Header("Movement")]
     public float moveSpeed;
 
@@ -16,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
     static public bool dialogue = false;
+
 
     private void Start()
     {
@@ -54,6 +58,11 @@ public class PlayerMovement : MonoBehaviour
 
         rb.AddForce(moveDirection.normalized * moveSpeed * 3f, ForceMode.Force);
 
+    }
+
+    private void PlayerFootstep()
+    {
+        
     }
 
 }
