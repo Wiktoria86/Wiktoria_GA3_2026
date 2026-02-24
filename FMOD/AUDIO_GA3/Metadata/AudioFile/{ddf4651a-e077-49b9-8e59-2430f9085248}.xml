@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{ddf4651a-e077-49b9-8e59-2430f9085248}">
+		<property name="assetPath">
+			<value>floraphonic-empty-beer-can-table-foley-drop-5-238694.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5840000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{95d4dca5-4e26-4d93-ab6f-e8635bce0ac9}</destination>
+		</relationship>
+	</object>
+</objects>
