@@ -7,6 +7,10 @@ public class NoteKey : MonoBehaviour
     public GameObject keyistrue;
     public GameObject InteractE;
     public bool isplayer;
+
+    [Header("FMOD")]
+    public FMODUnity.EventReference pickupSound;
+
     void Start()
     {
         isplayer = false;
@@ -41,6 +45,7 @@ public class NoteKey : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.E))
             {
+                FMODUnity.RuntimeManager.PlayOneShot(pickupSound, transform.position);
                 keyimage.SetActive(true);
                 keyistrue.SetActive(true);
                 InteractE.SetActive(false);
